@@ -1,0 +1,110 @@
+@media (min-width: 769px) {
+  .hidden {
+    display: none;
+  }
+}
+
+.square {
+  background-color: white;
+  -webkit-box-shadow: inset 0px 10px 10px #0000004F, 0px 3px 6px #0000009C;
+          box-shadow: inset 0px 10px 10px #0000004F, 0px 3px 6px #0000009C;
+  border: 0.5px solid #707070;
+  border-radius: 0px 46px;
+  opacity: 1;
+  width: 75%;
+  z-index: 10;
+}
+
+@media (min-width: 1024px) {
+  .square {
+    width: 50%;
+  }
+}
+
+.square img {
+  max-width: 75%;
+  margin: auto;
+  padding: 2rem;
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.container p {
+  color: white;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (min-width: 470px) {
+  .container p {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+}
+
+.firstdiv {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#campo {
+  width: 75%;
+  display: block;
+  float: right;
+  z-index: -1;
+  margin-top: -3rem;
+}
+
+@media (min-width: 470px) {
+  #campo {
+    margin-top: -7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  #campo {
+    width: 75%;
+  }
+}
+
+#icones {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+#marca {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+/*# sourceMappingURL=main.styled.css.map */
