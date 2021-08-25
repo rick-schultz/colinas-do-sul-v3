@@ -4,31 +4,37 @@ import { useEffect } from 'react';
 import Campos from "../../assets/images/campo.png"
 import Icones from "../../assets/images/icones.png"
 import Marca from "../../assets/images/marca.png"
+import Colina from "../../assets/images/logo.png"
+import './main.styled.css'
+import Casal from '../casal/Casal';
 
 export default function Main() {
  useEffect(() => {
   Aos.init({})
   }, []);
   return (
-<div className="container mx-auto flex flex-wrap px-4"
-data-aos="zoom-in"
-data-aos-duration="1200"
-data-aos-delay="1000" >
+<div className="main" data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="1000" data-aos-once="true">
 
-  <p className="text-white text-2xl font-bold text-center mx-auto my-2 sm:text-3xl">
-  O FRESCOR DO CAMPO PRÓXIMO À CIDADE!</p>
+  <div id="text">
+    <p>  O FRESCOR DO CAMPO PRÓXIMO À CIDADE!</p>
+  </div>
 
-  <div className="container mx-auto flex flex-wrap my-4">
+  <div className="firstDiv">
 
-    <div className="-z-1 float-right">
-      <img className="-mt-12 sm:-mt-28 lg:w-3/4" src={Campos} alt="imagem de um campo" /></div>
+  <div id="square">
+      <img src={Colina} alt="logo colinas do sul" />
+  </div>
+
+    <div id="campos">
+      <img src={Campos} alt="imagem de um campo" />
     </div>
+  </div>
 
-    <img className="w-3/4 mx-auto my-4" src={Icones} alt="lago, localização privilegiada, lotes a partir de 180m² e pagamento facilitado" />
+    <img id="icones" src={Icones} alt="lago, localização privilegiada, lotes a partir de 180m² e pagamento facilitado" />
 
+<Casal/>
 
-    <img className="w-3/4 mx-auto mt-4 mb-8" src={Marca} alt="" />
-
+    <img id="marca" src={Marca} alt="" />
 </div>
  )
 }

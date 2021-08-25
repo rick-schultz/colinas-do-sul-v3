@@ -1,0 +1,54 @@
+@media (min-width: 769px) {
+  .main {
+   display: none !important;
+  }
+ }
+
+.main {
+ @apply w-full container flex flex-wrap mx-auto m-0
+}
+
+#text{
+  @apply  mx-auto; 
+  inline-size: 80%;
+}
+
+#text p {
+  @apply text-white text-2xl font-bold text-center sm:text-3xl;
+  width: 100%
+}
+
+.firstDiv{
+@apply container mx-auto px-4 mb-4
+}
+
+#square{
+  @apply bg-white p-8 z-10 w-2/4;
+  box-shadow: inset 0px 10px 10px #0000004F, 0px 3px 6px #0000009C;
+  border: 0.5px solid #707070;
+  border-radius: 0px 46px;
+  display:inline-block;
+  block-size: fit-content;
+  }
+
+  #square img {
+  width: 100%;
+  }
+ 
+ #campos{
+  @apply -mt-12  float-left;
+  display: block;
+  z-index: -1;
+ }
+ 
+ #campos img {
+  width: 100%;
+ }
+ 
+ #icones {
+  @apply w-3/4 mx-auto my-4
+ }
+ 
+ #marca {
+  @apply w-3/5 mx-auto mt-8 mb-8
+ }
