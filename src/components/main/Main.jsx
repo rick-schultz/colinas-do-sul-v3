@@ -34,7 +34,7 @@ export default function Main() {
 
 <div  data-aos="fade-up-right" data-aos-duration="3000" data-aos-delay="200" data-aos-once="true"><Casal/></div>
 
-    <img id="marca" src={Marca} alt="logo iTUDE e Soluções Imobiliárias" data-aos="flip-down" data-aos-duration="2000" data-aos-delay="200" data-aos-once="true" />
+    <img id="marca" src={Marca} alt="logo iTUDE e Soluções Imobiliárias"/>
 </div>
  )
 }
