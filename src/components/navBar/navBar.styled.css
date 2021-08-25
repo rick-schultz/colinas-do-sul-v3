@@ -1,0 +1,9 @@
+.navBar{
+ @apply w-full py-3 flex bg-white mt-8
+}
+.navBar a {
+@apply mx-auto
+}
+.navBar img {
+ @apply h-24
+} 
