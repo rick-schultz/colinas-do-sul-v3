@@ -9,7 +9,7 @@ export default function NavBar() {
 Aos.init({})
  }, []);
  return (
-<nav className="navBar" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500" data-aos-once="true">
+<nav className="navBar" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true">
       <a href="https://itude.com.br" target="_blank" rel="noreferrer">
         <img src={Logo} alt="logo itude" />
       </a>

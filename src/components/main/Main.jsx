@@ -13,28 +13,28 @@ export default function Main() {
   Aos.init({})
   }, []);
   return (
-<div className="main" data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="1000" data-aos-once="true">
+<div className="main">
 
-  <div id="text">
-    <p>  O FRESCOR DO CAMPO PRÓXIMO À CIDADE!</p>
+  <div id="text"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200" data-aos-once="true">
+    <p>O FRESCOR DO CAMPO PRÓXIMO À CIDADE!</p>
   </div>
 
   <div className="firstDiv">
 
-  <div id="square">
+  <div id="square" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200" data-aos-once="true" >
       <img src={Colina} alt="logo colinas do sul" />
   </div>
 
     <div id="campos">
-      <img src={Campos} alt="imagem de um campo" />
+      <img src={Campos} alt="imagem de um campo"/>
     </div>
   </div>
 
-    <img id="icones" src={Icones} alt="lago, localização privilegiada, lotes a partir de 180m² e pagamento facilitado" />
+    <img id="icones" src={Icones} alt="lago, localização privilegiada, lotes a partir de 180m² e pagamento facilitado"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="500" data-aos-once="true" />
 
-<Casal/>
+<div  data-aos="fade-up-right" data-aos-duration="3000" data-aos-delay="200" data-aos-once="true"><Casal/></div>
 
-    <img id="marca" src={Marca} alt="" />
+    <img id="marca" src={Marca} alt="logo iTUDE e Soluções Imobiliárias" data-aos="flip-down" data-aos-duration="2000" data-aos-delay="200" data-aos-once="true" />
 </div>
  )
 }

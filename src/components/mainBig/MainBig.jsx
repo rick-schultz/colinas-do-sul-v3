@@ -13,7 +13,7 @@ export default function MainBig() {
   Aos.init({})
   }, []);
   return (
-<div className="mainBig" data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="1000" data-aos-once="true" >
+<div className="mainBig" data-aos="zoom-in"data-aos-duration="1200"data-aos-delay="200" data-aos-once="true" >
 <CasalBig/>
 
   <div id="squareBig">
@@ -32,7 +32,7 @@ export default function MainBig() {
       <img src={Campos} alt="imagem de um campo" />
     </div>
   </div>
-    <img id="marcaBig" src={Marca} alt="" />
+    <img id="marcaBig" src={Marca} alt="logo iTUDE e Soluções Imobiliárias" />
 </div>
  )
 }
