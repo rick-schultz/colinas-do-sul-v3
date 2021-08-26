@@ -22,6 +22,8 @@
 }
 
 #casalBig button a {
- @apply no-underline text-xs tracking-wide md:text-xs lg:text-base;
+ @apply no-underline text-xs tracking-wide;
+ @apply md:text-xs;
+ @apply lg:text-base;
  color: #378A2B;
 }

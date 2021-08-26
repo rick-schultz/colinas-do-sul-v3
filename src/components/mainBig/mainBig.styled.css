@@ -14,7 +14,10 @@
 }
 
 #textBig p {
-  @apply text-white text-2xl font-bold text-center sm:text-2xl lg:text-4xl xl:text-5xl xl:leading-tight;
+  @apply text-white text-2xl font-bold text-center;
+  @apply sm:text-2xl;
+  @apply lg:text-4xl;
+  @apply xl:text-5xl xl:leading-tight;
   width: 100%;
 }
 

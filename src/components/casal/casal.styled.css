@@ -20,6 +20,8 @@
 }
 
 #casal button a {
- @apply no-underline text-xs tracking-wide sm:text-base md:text-2xl;
+ @apply no-underline text-xs tracking-wide;
+ @apply sm:text-base;
+ @apply md:text-2xl;
  color: #378A2B;
 }
