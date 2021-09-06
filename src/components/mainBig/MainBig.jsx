@@ -18,6 +18,7 @@ export default function MainBig() {
 
   <div id="squareBig">
       <img src={Colina} alt="logo colinas do sul" />
+      <p>Campestre - MG</p>
   </div>
 
   <div id="textBig">

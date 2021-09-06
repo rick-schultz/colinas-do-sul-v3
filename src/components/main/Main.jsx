@@ -23,6 +23,7 @@ export default function Main() {
 
   <div id="square" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200" data-aos-once="true" >
       <img src={Colina} alt="logo colinas do sul" />
+      <p>Campestre - MG</p>
   </div>
 
     <div id="campos">

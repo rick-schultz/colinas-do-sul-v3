@@ -26,7 +26,7 @@
 }
 
 #squareBig{
-  @apply bg-white p-8 z-10 w-2/5 mt-8 ml-6;
+  @apply bg-white px-8 pt-8 pb-2 z-10 w-2/5 mt-8 ml-6;
   box-shadow: inset 0px 10px 10px #0000004F, 0px 3px 6px #0000009C;
   border: 0.5px solid #707070;
   border-radius: 0px 46px;
@@ -37,6 +37,12 @@
   #squareBig img {
   width: 100%;
   }
+
+  #squareBig p {
+    text-align: center;
+    font-weight: 700;
+    font-size: 200%;
+    }
  
  #camposBig{
   @apply -mt-24 float-right;
