@@ -4,6 +4,15 @@
   }
  }
 
+ .messageBig  {
+  @apply mx-auto;
+  inline-size: 70%;
+}
+
+ .messageBig p {
+@apply text-white text-center text-2xl lg:text-4xl mb-0;
+ }
+
 .mainBig {
  @apply w-full container flex flex-wrap mx-auto m-0
 }
@@ -54,10 +63,19 @@
  #camposBig img {
   width: 100%;
  }
+
+ .messageBig2 {
+  inline-size: 70%;
+}
+
+ .messageBig2 p {
+@apply text-white text-center text-xl;
+ }
  
  #iconesBig {
   @apply w-3/4 mx-8 my-4;
-  width: 30%
+  width: 30%;
+  height: 80%;
  }
  
  #marcaBig {

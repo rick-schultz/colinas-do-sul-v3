@@ -8,13 +8,22 @@
  @apply w-full container flex flex-wrap mx-auto m-0
 }
 
+.message {
+  @apply mx-auto;
+  inline-size: 90%;
+}
+
+ .message p {
+@apply text-white text-center text-xl;
+ }
+
 #text{
   @apply  mx-auto; 
   inline-size: 80%;
 }
 
 #text p {
-  @apply text-white text-2xl font-bold text-center;
+  @apply text-white text-2xl font-bold text-center mb-0;
   @apply sm:text-3xl;
   width: 100%
 }

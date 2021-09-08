@@ -15,8 +15,8 @@ export default function Main() {
   return (
 <div className="main">
 
-  <div id="text"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200" data-aos-once="true">
-    <p>O FRESCOR DO CAMPO PRÓXIMO À CIDADE!</p>
+<div className="message" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200" data-aos-once="true">
+    <p>Você já se imaginou vivendo na cidade, com a segurança e tranquilidade do campo?</p>
   </div>
 
   <div className="firstDiv">
@@ -31,7 +31,15 @@ export default function Main() {
     </div>
   </div>
 
+  <div className="message" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200" data-aos-once="true">
+  <p>Com condições de pagamento jamais vistas, você pode investir no local dos seus sonhos!</p>
+</div>
+
     <img id="icones" src={Icones} alt="lago, localização privilegiada, lotes a partir de 180m² e pagamento facilitado"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="500" data-aos-once="true" />
+
+    <div id="text"  data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200" data-aos-once="true">
+    <p>O FRESCOR DO CAMPO PRÓXIMO À CIDADE!</p>
+  </div>
 
 <div  data-aos="fade-up-right" data-aos-duration="3000" data-aos-delay="200" data-aos-once="true"><Casal/></div>
 
