@@ -4,7 +4,6 @@
   }
   .messageBig {
     display: none !important;
-
   }
  }
 
@@ -77,9 +76,8 @@
  }
  
  #iconesBig {
-  @apply w-3/4 mx-8 my-4;
+  @apply w-3/4 mx-8 my-4 h-60 lg:h-80 xl:h-auto;
   width: 30%;
-  height: 80%;
  }
  
  #marcaBig {
