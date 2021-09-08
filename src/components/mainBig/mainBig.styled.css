@@ -2,6 +2,10 @@
   .mainBig {
    display: none !important;
   }
+  .messageBig {
+    display: none !important;
+
+  }
  }
 
  .messageBig  {
