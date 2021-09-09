@@ -16,7 +16,7 @@ export default function MainBig() {
 <>
 
   <div className="messageBig" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200" data-aos-once="true">
-      <p>Você já se imaginou vivendo na cidade, com a segurança e tranquilidade do campo?</p>
+      <p>Você já se imaginou vivendo na cidade com a segurança e tranquilidade do campo?</p>
     </div>
 
 <div className="mainBig" data-aos="zoom-in"data-aos-duration="1500"data-aos-delay="300" data-aos-once="true" >

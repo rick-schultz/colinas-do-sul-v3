@@ -16,7 +16,7 @@ export default function Main() {
 <div className="main">
 
 <div className="message" data-aos="zoom-in" data-aos-duration="1200" data-aos-delay="200" data-aos-once="true">
-    <p>Você já se imaginou vivendo na cidade, com a segurança e tranquilidade do campo?</p>
+    <p>Você já se imaginou vivendo na cidade com a segurança e tranquilidade do campo?</p>
   </div>
 
   <div className="firstDiv">
