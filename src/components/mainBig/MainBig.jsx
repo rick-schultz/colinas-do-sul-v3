@@ -39,7 +39,7 @@ export default function MainBig() {
     <div id="camposBig">
       <img src={Campos} alt="imagem de um campo" />
       <div className="messageBig2">
-        <p>Com condições de pagamento jamais vistas, você pode investir no local dos seus sonhos!</p>
+        <p>Com condições de pagamento jamais vistas, você poderá investir no local dos seus sonhos!</p>
       </div>
     </div>
   </div>
