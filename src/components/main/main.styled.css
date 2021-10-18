@@ -51,20 +51,20 @@
     font-size: 130%;
   }
  
- #campos{
+ #Fields{
   @apply -mt-12  float-left;
   display: block;
   z-index: -1;
  }
  
- #campos img {
+ #Fields img {
   width: 100%;
  }
  
- #icones {
+ #Icons {
   @apply w-3/4 mx-auto my-4
  }
  
- #marca {
+ #Brand {
   @apply w-3/5 mx-auto mt-8 mb-12
  }

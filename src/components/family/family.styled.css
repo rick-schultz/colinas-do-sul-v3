@@ -1,0 +1,27 @@
+#family {
+ @apply mx-auto;
+ position: relative;
+ width: 90%;
+}
+
+#family img {
+ width: 100%;
+}
+
+#family button {
+ @apply text-center flex justify-center items-center m-auto font-semibold p-1 border-0 cursor-pointer absolute bg-transparent;
+ width: 40%;
+ height: 10%;
+ top: 92.4%;
+ left: 26.5%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ border-radius: 10%;
+}
+
+#family button a {
+ @apply no-underline text-xs tracking-wide;
+ @apply sm:text-base;
+ @apply md:text-2xl;
+ color: #378A2B;
+}

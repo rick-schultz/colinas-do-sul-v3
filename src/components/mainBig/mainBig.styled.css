@@ -56,14 +56,14 @@
     font-size: 200%;
     }
  
- #camposBig{
+ #FieldsBig{
   @apply -mt-24 float-right;
   display: block;
   z-index: -1;
   width: 55%;
  }
  
- #camposBig img {
+ #FieldsBig img {
   width: 100%;
  }
 
@@ -75,12 +75,12 @@
 @apply text-white text-center text-xl;
  }
  
- #iconesBig {
+ #IconsBig {
   @apply w-3/4 mx-8 my-4 h-60 lg:h-80 xl:h-auto;
   width: 30%;
  }
  
- #marcaBig {
+ #BrandBig {
   @apply w-1/5 mx-auto absolute;
 top: 88%;
 left: 75%;

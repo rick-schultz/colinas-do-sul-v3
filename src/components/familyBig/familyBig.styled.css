@@ -1,0 +1,29 @@
+#familyBig {
+ @apply mx-auto;
+ position: absolute;
+ top: 22%;
+ left: 60%;
+ width: 40%;
+}
+
+#familyBig img {
+ width: 100%;
+}
+
+#familyBig button {
+ @apply text-center flex justify-center items-center m-auto font-semibold p-1 border-0 cursor-pointer absolute bg-transparent;
+ width: 40%;
+ height: 10%;
+ top: 92.4%;
+ left: 26.5%;
+ transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ border-radius: 10%;
+}
+
+#familyBig button a {
+ @apply no-underline text-xs tracking-wide;
+ @apply md:text-xs;
+ @apply lg:text-base;
+ color: #378A2B;
+}
